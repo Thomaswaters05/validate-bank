@@ -1,0 +1,12 @@
+body {
+  background: #FCF6CF;
+}
+
+
+input:invalid {
+  background-color: #ff9999;
+}
+
+input.validate:valid {
+  background-color: lightgreen;
+}

@@ -2,9 +2,10 @@
 <html>
 <head>
     <title>Bank Form</title>
+    <link rel="stylesheet" type="text/css" href="validation.css">
 </head>
 
-<body bgcolor="#FFE8D0">
+<body>
     <h1><i>Bank of the South | Loan Application</i>
     </h1>
 
@@ -17,6 +18,7 @@
 
     <div style="margin-left: 2em">
         <form>
+            <p>
             First name:<br>
             <input name="firstname" type="text" placeholder="First Name"><br>
             Middle Initial:<br>
@@ -112,8 +114,8 @@
 
     <div style="margin-left: 2em">
         <form>
-            Personal Email Address:<br>
-            <input name="appemail" type="text" placeholder="Email Address"><br>
+
+            <input name="appemail" type="email" class="validate" placeholder="Email Address"><br>
             Personal Telephone Number:<br>
             <input name="app-phone" type="text" placeholder="Telephone"><br>
             Personal LinkedIn URL:<br>
